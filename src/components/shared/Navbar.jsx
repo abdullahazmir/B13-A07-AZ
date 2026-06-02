@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="navbar-end gap-4">
                 <Link href="/" className="btn"> <IoIosHome />Home</Link>
                 <Link href="/timeline" className="btn"> <RiTimeLine />Timeline</Link>
-                <Link href={'/stats'} className="btn"> <TfiStatsUp/>Stats</Link>
+                <Link href='/stats' className="btn"> <TfiStatsUp/>Stats</Link>
             </div>
         </div>
     );
