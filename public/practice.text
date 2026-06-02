@@ -1,0 +1,28 @@
+
+        {/* <div className="col-start-2 row-start-2 bg-white rounded-2xl p-6 shadow-sm">
+          <div className="flex items-center justify-between mb-3">
+            <p className="font-semibold text-gray-900 text-base">Relationship Goal</p>
+            <button
+              onClick={() => setEditing(!editing)}
+              className="border border-gray-200 rounded-lg px-4 py-1 text-sm text-gray-600 hover:bg-gray-50 transition-colors cursor-pointer"
+            >
+              {editing ? "Save" : "Edit"}
+            </button>
+          </div>
+          {editing ? (
+            <div className="flex items-center gap-2">
+              <span className="text-gray-500 text-sm">Connect every</span>
+              <input
+                type="number"
+                value={goalDays}
+                onChange={e => setGoalDays(e.target.value)}
+                className="w-16 border border-gray-300 rounded-lg px-2 py-1 text-sm font-semibold text-center"
+              />
+              <span className="text-gray-500 text-sm">days</span>
+            </div>
+          ) : (
+            <p className="text-gray-500 text-sm">
+              Connect every <strong className="text-gray-900">{goalDays} days</strong>
+            </p>
+          )}
+        </div> */}
