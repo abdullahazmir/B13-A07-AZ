@@ -1,5 +1,5 @@
 import React from 'react';
-import AllFriend from '../friends/page';
+import AllFriend from '../app/friends/page';
 
 const GetData = async () => {
     const res = await fetch('http://localhost:3000/Data.json', {
