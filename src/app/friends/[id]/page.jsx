@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ContactDetail = async ({ params }) => {
   const { id } = await params;
-  const res = await fetch("http://localhost:3000/Data.json", { cache: "no-store" });
+  const res = await fetch("https://b13-a07-az.vercel.app/Data.json", { cache: "no-store" });
   const datas = await res.json();
   const friendDetails = datas.find((friend) => friend.id === parseInt(id));
 

@@ -2,7 +2,7 @@ import React from 'react';
 import AllFriend from '../app/friends/page';
 
 const GetData = async () => {
-    const res = await fetch('http://localhost:3000/Data.json', {
+    const res = await fetch('https://b13-a07-az.vercel.app/Data.json', {
         cache: 'no-store'
     });
 
